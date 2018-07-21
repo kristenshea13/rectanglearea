@@ -6,7 +6,23 @@ namespace rectanglearea
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Console.Write("Rectangle Length: ");
+            string rectangleLength;
+            rectangleLength = Console.ReadLine();
+            int rectangleLengthInt = int.Parse(rectangleLength);
+
+            Console.Write("Rectangle Width: ");
+            string rectangleWidth;
+            rectangleWidth = Console.ReadLine();
+            int rectangleWidthInt = int.Parse(rectangleWidth);
+
+            int x = rectangleLengthInt * rectangleWidthInt;
+            Console.WriteLine("Rectangle Area: " + " " + x);
+            Console.ReadLine();
+
+
+
         }
     }
 }
